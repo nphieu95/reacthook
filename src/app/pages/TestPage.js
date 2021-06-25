@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "./../../_metronic/layout/components/testpage/Accordion";
+import Search from "../../_metronic/layout/components/testpage/Search";
 
 export default () => {
   const items = [
@@ -19,7 +20,8 @@ export default () => {
   return (
     <div>
       <br></br>
-      <Accordion items={items}></Accordion>
+      {/* <Accordion items={items}></Accordion> */}
+      <Search></Search>
     </div>
   );
 };
